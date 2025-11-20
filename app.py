@@ -4,8 +4,14 @@ from database import Base, engine
 from core.llm.routes import llm_router
 
 
-
-app = FastAPI()
+app = FastAPI(
+    title="LLM API Core",
+    description="A FastAPI-based REST API service for interacting with Large Language Models (LLMs) using OpenAI",
+    version="1.0.0",
+    docs_url="/docs",  # Swagger UI - Interactive API documentation
+    redoc_url="/redoc",  # ReDoc - Alternative API documentation
+    openapi_url="/openapi.json",  # OpenAPI schema JSON
+)
 
 api = '/api/v1'
 

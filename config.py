@@ -19,13 +19,9 @@ class Settings(BaseSettings):
     DB_PASSWORD:str
     SECRET_KEY:str
     DB_HOST:str
+    OPENAI_API_KEY:str
+    OPENAI_MODEL:str = "gpt-4o-mini"
     model_config = SettingsConfigDict(env_file=get_app_env())
-    
-    # class Config:
-    #     # env_prefix = "my_"
-    #     env_file:str = get_app_env()
-    #     env_file_encoding = "utf-8"
-    #     env_file_verbose = True
         
 @lru_cache()        
 def get_settings() -> Settings:

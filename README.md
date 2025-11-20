@@ -392,14 +392,8 @@ pytest
    - Ensure virtual environment is activated
    - Run `pip install -r requirements.txt`
 
-## 📝 License
-
-[Add your license here]
-
-## 👥 Contributing
-
-[Add contribution guidelines here]
-
 ## 📧 Contact
 
-[Add contact information here]
+For questions, suggestions, or collaboration opportunities, feel free to reach out:
+
+- **LinkedIn**: [Jasiel Salvador Hernandez Gonzalez](https://www.linkedin.com/in/jasiel-salvador-hernandez-gonzalez/)
